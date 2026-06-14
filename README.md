@@ -5,7 +5,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![Deploy](https://img.shields.io/badge/deploy-Netlify-brightgreen)
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://zadar-city-guide.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://zadar-city-guide.vercel.app/)
 
 ![Preview](./screenshots/home.png)
 
@@ -15,6 +15,12 @@ This website was created during my first year studying Information Technology on
 It presents information about the city including its **location, history and main attractions**.
 
 The goal of the project was to practice building a structured website, working with layouts, navigation and responsive design.
+
+---
+
+## Live Demo
+
+https://zadar-city-guide.vercel.app
 
 ---
 
