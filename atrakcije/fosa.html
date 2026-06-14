@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Zadar | Foša</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu-container">
+        <a href="../index.html">
+          <h1 class="logo">Zadar</h1>
+        </a>
+
+        <span class="material-symbols-rounded open-icon"> menu </span>
+        <span class="material-symbols-rounded close-icon"> close </span>
+
+        <ul class="menu-items desktop">
+          <li><a href="../index.html">Početna</a></li>
+          <li><a href="../lokacija.html">Lokacija</a></li>
+          <li><a href="../povijest.html">Povijest</a></li>
+          <li><a href="../atrakcije.html">Atrakcije</a></li>
+        </ul>
+
+        <ul class="menu-items mobile">
+          <li><a href="../index.html">Početna</a></li>
+          <li><a href="../lokacija.html">Lokacija</a></li>
+          <li><a href="../povijest.html">Povijest</a></li>
+          <li><a href="../atrakcije.html">Atrakcije</a></li>
+        </ul>
+      </div>
+      <div class="mobile-overlay"></div>
+    </nav>
+
+    <section class="intro fosa">
+      <h2>Foša</h2>
+    </section>
+
+    <section class="attraction-info">
+      <div class="container">
+        <h3>Foša</h3>
+        <p class="mb-20">
+          Foša je komunalna lučica u Zadru i jedan od gradskih simbola, a zbog
+          njezine stoljetne ambijentalnosti i naslonjenosti na renesansne
+          bedeme, omiljeno je mjesto za šetnju, fotografiranje i uživanje u
+          raskošnom lučkom koloritu.
+        </p>
+        <p>
+          Bedemi nad ambijentalnom i povijesnom lučicom Foša u Zadru podignuti
+          su u 16. stoljeću, a dio njezine mistične i drevne atmosfere postoji i
+          danas. Od povijesnih Kopnenih vrata na koja su naslonjena, pa sve do
+          zgrade Sveučilišta u Zadru, lučica Foša neizostavna je šetnica za
+          putnike i turiste te jedan od prepoznatljivih gradskih simbola.
+        </p>
+
+        <p class="source">
+          Izvor:
+          <a href="https://zadar.travel/hr" target="_blank">zadar.travel</a>
+        </p>
+
+        <div class="gallery">
+          <a href="../img/img7.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img7.webp"
+              loading="lazy"
+              alt="Lučica Foša, pogled iz zraka s brodicama i morem"
+            />
+          </a>
+
+          <a href="../img/img73.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img73.webp"
+              loading="lazy"
+              alt="Foša s crvenom zgradom i terasom restorana Foša"
+            />
+          </a>
+
+          <a href="../img/img74.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img74.webp"
+              loading="lazy"
+              alt="Unutrašnjost lučice Foša s brodicama i bedemima"
+            />
+          </a>
+
+          <a href="../img/img75.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img75.webp"
+              loading="lazy"
+              alt="Kopnena vrata iz 16. stoljeća"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="prev-next">
+        <a href="katedrala-sv-stosije.html" class="btn prev">
+          <span class="material-symbols-rounded"> chevron_backward </span
+          >Prethodna</a
+        >
+        <a href="gradske-zidine.html" class="btn next">
+          Sljedeća
+          <span class="material-symbols-rounded"> chevron_forward </span></a
+        >
+      </div>
+    </div>
+
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2180.1639767126276!2d15.226586950908475!3d44.1115140933196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4761fa68b5b53be9%3A0x351d09e57b04ec04!2zRm_FoWE!5e1!3m2!1shr!2shr!4v1763828872160!5m2!1shr!2shr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <span class="material-symbols-rounded to-top-btn"> keyboard_arrow_up </span>
+
+    <script src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+      const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

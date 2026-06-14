@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Zadar | Početna</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu-container">
+        <a href="index.html">
+          <h1 class="logo">Zadar</h1>
+        </a>
+
+        <span class="material-symbols-rounded open-icon"> menu </span>
+        <span class="material-symbols-rounded close-icon"> close </span>
+
+        <ul class="menu-items desktop">
+          <li class="active"><a href="index.html">Početna</a></li>
+          <li><a href="lokacija.html">Lokacija</a></li>
+          <li><a href="povijest.html">Povijest</a></li>
+          <li><a href="atrakcije.html">Atrakcije</a></li>
+        </ul>
+
+        <ul class="menu-items mobile">
+          <li class="active">
+            <a href="index.html">Početna</a>
+          </li>
+          <li><a href="lokacija.html">Lokacija</a></li>
+          <li><a href="povijest.html">Povijest</a></li>
+          <li><a href="atrakcije.html">Atrakcije</a></li>
+        </ul>
+      </div>
+      <div class="mobile-overlay"></div>
+    </nav>
+
+    <section class="intro home-intro">
+      <h2>Zadar</h2>
+      <div class="explore">
+        <a href="#home-cards" class="explore-text">Upoznaj grad</a>
+        <a href="#home-cards">
+          <span class="material-symbols-rounded explore-arrow">
+            keyboard_arrow_down
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <section class="home-cards" id="home-cards">
+      <div class="container">
+        <p>
+          Zadar je jedan od najstarijih hrvatskih gradova, smješten na obali
+          Jadrana. Poznat je po bogatoj povijesti, jedinstvenim znamenitostima i
+          zadivljujućim zalascima sunca.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <span class="material-symbols-rounded"> location_on </span>
+            <h4>Lokacija</h4>
+            <a href="lokacija.html" class="btn">Vidi više</a>
+          </div>
+
+          <div class="card">
+            <span class="material-symbols-rounded"> history_edu </span>
+            <h4>Povijest</h4>
+            <a href="povijest.html" class="btn">Vidi više</a>
+          </div>
+
+          <div class="card">
+            <span class="material-symbols-rounded"> camera_alt </span>
+            <h4>Atrakcije</h4>
+            <a href="atrakcije.html" class="btn">Vidi više</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-to-visit">
+      <div class="container">
+        <h3>Zašto posjetiti Zadar?</h3>
+
+        <div class="cards">
+          <div class="card sunset">
+            <div class="card-overlay">
+              <h4>Zalasci sunca</h4>
+            </div>
+          </div>
+
+          <div class="card sea-organ">
+            <div class="card-overlay">
+              <h4>Morske orgulje</h4>
+            </div>
+          </div>
+
+          <div class="card old-town">
+            <div class="card-overlay">
+              <h4>Povijesna jezgra</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-end-img"></section>
+
+    <span class="material-symbols-rounded to-top-btn"> keyboard_arrow_up </span>
+
+    <script src="main.js"></script>
+  </body>
+</html>

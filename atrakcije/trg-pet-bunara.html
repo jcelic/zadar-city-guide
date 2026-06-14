@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allison&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Zadar | Trg pet bunara</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu-container">
+        <a href="../index.html">
+          <h1 class="logo">Zadar</h1>
+        </a>
+
+        <span class="material-symbols-rounded open-icon"> menu </span>
+        <span class="material-symbols-rounded close-icon"> close </span>
+
+        <ul class="menu-items desktop">
+          <li><a href="../index.html">Početna</a></li>
+          <li><a href="../lokacija.html">Lokacija</a></li>
+          <li><a href="../povijest.html">Povijest</a></li>
+          <li><a href="../atrakcije.html">Atrakcije</a></li>
+        </ul>
+
+        <ul class="menu-items mobile">
+          <li><a href="../index.html">Početna</a></li>
+          <li><a href="../lokacija.html">Lokacija</a></li>
+          <li><a href="../povijest.html">Povijest</a></li>
+          <li><a href="../atrakcije.html">Atrakcije</a></li>
+        </ul>
+      </div>
+      <div class="mobile-overlay"></div>
+    </nav>
+
+    <section class="intro trg-5">
+      <h2>Trg pet bunara</h2>
+    </section>
+
+    <section class="attraction-info">
+      <div class="container">
+        <h3>Trg pet bunara</h3>
+        <p class="mb-20">
+          Sa zapadnim srednjovjekovnim zidom i Kapetanovom kulom koja se uzdiže
+          26 metara visoko te potpornim zidom na istoku s ulazom u Gradski
+          perivoj, obljubljen je renesansni Trg pet bunara u Zadru. Tko se tu
+          nije fotografirao, nije bio u Zadru.
+        </p>
+        <p>
+          Trg pet bunara u Zadru izgrađen je 1574. godine u vrijeme opsada
+          vojske Osmanskog Carstva, kada je pokriven obrambeni jarak sa zapadne
+          strane bastiona, ranije iskopan u srednjem vijeku. Na njegovom mjestu
+          nastala je velika cisterna za pitku vodu s pet ukrašenih vijenaca ili
+          bunara, a sačuvani su i dijelovi akvadukta kojim se voda dovodila
+          izravno s jezera Vrana. Nakon što je prošla opasnost, na tom je mjestu
+          izgrađen zaštitni bedem.
+        </p>
+
+        <p class="source">
+          Izvor:
+          <a href="https://zadar.travel/hr" target="_blank">zadar.travel</a>
+        </p>
+
+        <div class="gallery">
+          <a href="../img/img56.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img56.webp"
+              loading="lazy"
+              alt="Trg pet bunara s Kapetanovom kulom"
+            />
+          </a>
+
+          <a href="../img/img57.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img57.webp"
+              loading="lazy"
+              alt="Trg pet bunara s Kapetanovom kulom osvijetljen suncem"
+            />
+          </a>
+
+          <a href="../img/img58.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img58.webp"
+              loading="lazy"
+              alt="Niz ukrašenih bunara na Trgu pet bunara uz kameni zid i ulaz u perivoj"
+            />
+          </a>
+
+          <a href="../img/img59.webp" class="glightbox" data-gallery="gallery1">
+            <img
+              src="../img/img59.webp"
+              loading="lazy"
+              alt="Širi pogled na Trg pet bunara s bunarima, Kapetanovom kulom i prolaznicima"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="prev-next">
+        <a href="morske-orgulje.html" class="btn prev">
+          <span class="material-symbols-rounded"> chevron_backward </span
+          >Prethodna</a
+        >
+        <a href="pozdrav-suncu.html" class="btn next">
+          Sljedeća
+          <span class="material-symbols-rounded"> chevron_forward </span></a
+        >
+      </div>
+    </div>
+
+    <section class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.629282029458!2d15.22700175103843!3d44.11236278148283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4761fa6f41ac1981%3A0xf77b6a94a8f7bcec!2sTrg%20pet%20bunara%2C%2023000%2C%20Zadar!5e1!3m2!1shr!2shr!4v1763822962540!5m2!1shr!2shr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <span class="material-symbols-rounded to-top-btn"> keyboard_arrow_up </span>
+
+    <script src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+      const lightbox = GLightbox({
+        touchNavigation: true,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
